@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Juego piedra, papel, tijeras, lagarto, spock!</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+</head>
+<body>
+  <div class="contenedor">
+    <div class="clearfix">
+      <h1 id="titulo">Piedra 👊🏽 - Papel 🖐🏽 - Tijeras ✌🏽 - Lagarto 🐊 - Spock 🖖🏽</h1>
+      <div id="usuario" >
+        <h2 id="a">Usuario</h2>
+        <div id="pptls" class="usuario img">
+          <img src="img/gif/piedra-papel-tijera.gif" height="300px" alt="Imagen principal de piedra papel o tijeras">
+        </div>
+        <div id="paper" class="usuario img">
+          <img src="img/gif/86682.gif" height="300px"  alt="papel">
+        </div>
+        <div id="rock" class="usuario img">
+          <img src="img/gif/piedra.png" height="300px"  alt="piedra">  
+        </div>
+        <div id="cut" class="usuario img">
+          <img src="img/gif/tijeras-01.gif" height="300px"  alt="tijeras">
+        </div>
+        <div id="lizard" class="usuario img">
+          <img src="img/gif/lizard.gif" height="300px"  alt="lagarto">  
+        </div>
+        <div id="spock" class="usuario img">
+          <img src="img/gif/Spock.gif" height="300px"  alt="spock">
+        </div>     
+      </div>
+      <div id="resultado">
+      </div>
+      <div id="pc" >
+        <h2 id="b">PC</h2>
+        <div id="pptlsPC" class="pc img">
+          <img src="img/gif/piedra-papel-tijera.gif" height="300px" alt="Imagen principal de piedra papel o tijeras">
+        </div>
+        <div id="paperPC" class="pc img">
+          <img src="img/gif/86682.gif" height="300px"  alt="papel">
+        </div>
+        <div id="rockPC" class="pc img">
+          <img src="img/gif/piedra.png" height="300px"  alt="piedra">
+        </div>
+        <div id="cutPC"  class="pc img">
+          <img src="img/gif/tijeras-01.gif" height="300px"  alt="tijeras">
+        </div>
+        <div id="lizardPC" class="pc img">
+          <img src="img/gif/lizard.gif" height="300px"  alt="lagarto">
+        </div>
+        <div id="spockPC" class="pc img">
+          <img src="img/gif/Spock.gif" height="300px"  alt="spock">
+        </div>    
+      </div>
+    </div>
+    <div class="clearfix margin-btn" id="botones">
+        <h3 id="btnenunciado">Selecciona un icono para iniciar:</h3>
+        <img id ="btnpiedra" class="boton" src="img/iconos/rock.png">
+        <img id ="btnpapel" class="boton" src="img/iconos/paper.png">
+        <img id ="btntijeras" class="boton" src="img/iconos/scissors.png">
+        <img id ="btnlagarto" class="boton" src="img/iconos/lizard.png">
+        <img id ="btnspock" class="boton" src="img/iconos/spock.png">
+    </div>
+    <h3 id="btnpregunta">¿Deseas jugar otra vez?</h3>
+    <p id="btnrestart" class="margin-btn">Reiniciar</p>
+  </div>
+  <footer>
+    <p id="copy">todos los derechos reservados © CETAV 2018</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
